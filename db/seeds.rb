@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Product.create({name: "sweet_trudys", 
+  price: "4.50", 
+  image_url: "https://www.thespruceeats.com/thmb/QMSXFkdj29NsqgXcM8Bje4bxDtk=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/Peppers-Sweet-Mix-579bb8773df78c3276657310.jpg",
+  description: "Sweet Trudy's is our delicious gourmet pepper relish that has all the flavor you love without the heat"})
+
+Product.create({name: "medium_trudys", price: "4.50", image_url: "https://www.thespruceeats.com/thmb/QMSXFkdj29NsqgXcM8Bje4bxDtk=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/Peppers-Sweet-Mix-579bb8773df78c3276657310.jpg", description: "The sweet pepper relish you know and love with a bit of a kick"})
+Product.create({name: "hot_trudys", price: "4.50", image_url: "https://www.thespruceeats.com/thmb/QMSXFkdj29NsqgXcM8Bje4bxDtk=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/Peppers-Sweet-Mix-579bb8773df78c3276657310.jpg", description: "The original Trudy's flavor with the perfect balance of sweet and heat"})
