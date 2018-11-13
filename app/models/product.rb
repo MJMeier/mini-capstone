@@ -11,9 +11,15 @@ class Product < ApplicationRecord
    # Supplier.find_by(id: supplier_id)
   #end
 
+  has_many :cartedproducts
+
   belongs_to :supplier
 
   has_many :category_products
+
+  has_many :orders, through: :carted_products
+
+  has_many :users, through: :carted_products
 
 
   #def images  

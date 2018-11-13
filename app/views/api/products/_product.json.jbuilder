@@ -7,3 +7,4 @@ json.sales_tax product.tax
 json.sales_total product.total
 json.supplier product.supplier
 json.images product.image_url_list
+#json.categories product.categories
